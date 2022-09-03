@@ -1,0 +1,83 @@
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f9fafb;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  
+  .container {
+    font-family: "Times New Roman", Times, serif;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .form {
+    padding: 30px 40px;
+  }
+  
+  #but {
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+  }
+  
+  #er {
+    text-overflow: clip;
+    margin: px 0;
+    color: #f60000;
+    text-align: left;
+  }
+  #username {
+    border-color: rgb(241, 237, 237);
+    box-shadow: 1px;
+    border-radius: 1px;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+  }
+  #email {
+    border-color: rgb(241, 237, 237);
+    box-shadow: 1px;
+    border-radius: 1px;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+  }
+  
+  #password {
+    border-color: rgb(241, 237, 237);
+    box-shadow: 1px;
+    border-radius: 1px;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+  }
+  
+  #confirmPassword {
+    border-color: rgb(241, 237, 237);
+    box-shadow: 1px;
+    border-radius: 1px;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+  }
+  
