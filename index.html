@@ -1,15 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FrontEnd Form</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            width: 400px;
+            margin: 30px auto;
+            background-color: #FFF;
+            box-shadow: rgba(99, 99, 115, 0.2) 0px 7px 29px 0px;
+            padding: 10px 30px 30px;
+        }
+
+        div {
+            margin: 30px 10px;
+        }
+
+        div label {
+            color: #a1a0a0;
+        }
+
+        div input, #submit {
+            display: block;
+            width: 100%;
+            height: 30px;
+            margin-top: 5px;
+            border: 1px solid #CCC;
+            border-radius: 4px;
+            padding: 6px 12px;
+            box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        }
+
+        #submit {
+            color: #fff;
+            background-color: #2585d9;
+            border-color: #2585d9;
+            height: 40px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+    </style>
 </head>
-
 <body>
+    <form id="form" onsubmit ="return false" action="/">
+        <h2>Register With US</h2>
 
+       <div>
+            <label for="username">Username : </label>
+            <input type="text" id="username" name="username" placeholder="Enter Username" required minlength="3" />
+       </div>
+
+       <div>
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required />
+        </div>
+
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required minlength="6" />
+        </div>
+
+        <div>
+            <label for="confirmPassword">Password : </label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter Password Again" required />
+        </div>
+
+        <div>
+            <button id="submit" onclick="matchPassword()">Submit</button>
+        </div>
+    </form>
+
+    <script>
+        function matchPassword() {
+            
+            let pass = document.getElementById("password").value;
+            let conPass = document.getElementById("confirmPassword").value;
+
+            if (pass != conPass) 
+            {
+                alert("The Two Password Are Not Match");
+            }
+            else
+            {
+                document.getElementById("form").submit.click();
+                document.getElementById("form").reset();
+                alert("Form Submited with success !");
+                
+            }
+        }
+    </script>
 </body>
-
 </html>
