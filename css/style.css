@@ -1,0 +1,105 @@
+:root {
+    --success-color:#0a6f34;
+    --error-color:#9a1e10;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(54, 79, 66, 0.471);
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(166, 141, 176, 0.662);
+    border-radius: 6px;
+    width: 450px;
+}
+
+h1 {
+    color: rgb(246, 228, 228);
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    border: 2px solid #ded9d9;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form-control input:focus {
+    outline: 0;
+    color:rgb(195, 185, 185);
+}
+
+.form-control.success input {
+    border-color:var(--success-color);
+}
+
+.form-control.error input {
+    border-color:var(--error-color);
+}
+
+.form-control small {
+    color: var(--error-color);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form button {
+    cursor: pointer;
+    background-color: #676868;
+    border: 2px solid  #676868;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 4px;
+    color:#fff;
+    transition: all 1s ease-in-out;
+}
+
+.form button:hover {
+    background-color: transparent;
+    border: 2px solid rgb(168, 178, 175);
+    color: rgb(78, 82, 80);
+    transition: all 1s ease-in-out;
+}
+
+.form button:focus {
+    outline: none;
+
+}
