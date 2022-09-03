@@ -1,0 +1,50 @@
+body{
+    background-color: #EEEEEE;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.container {
+    background-color: aliceblue;
+    width: 400px;
+    border-radius: 15px;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 0 0 20px;
+  }
+
+  label{
+    color: gray;
+  }
+
+  .input{
+    width: 100%;
+    border-width:2px;
+    border-style:solid;
+
+  }
+
+  button{
+    width: 100%;
+  }
+
+  .error{
+    color: red;
+  }
+
+  .btn-primary{
+    background-color: lightblue;
+    border-color: transparent;
+  }
+
+  .form{
+    padding: 30px 40px;
+  }
+
+
+ 
