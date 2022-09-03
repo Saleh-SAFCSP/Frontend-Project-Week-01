@@ -1,0 +1,89 @@
+
+body {
+    background-color: #f9fafb;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+#form {
+   
+    /* margin: 20vh auto 0 auto; */
+  
+    background-color:#fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    font-size: 12px;
+    padding: 30px 40px;
+}
+
+/* .container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  } */
+  
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+  
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px;
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+    
+
+}
+
+.input-control label {
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+  }
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+    margin: 0 0 20px;
+
+}
+
+
+
+
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
