@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form" action="/">
+            <h2>Register With Us</h2>
+
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" placeholder="Enter username">
+                <div class="error"></div>
+            </div>
+
+            <br>
+
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text" placeholder="Enter email">
+                <div class="error"></div>
+            </div>
+
+            <br>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter password">
+                <div class="error"></div>
+            </div>
+
+            <br>
+
+            <div class="input-control">
+                <label for="password">Confirm Password</label>
+                <input id="password2" name="password2" type="password" placeholder="Enter password again">
+                <div class="error"></div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
