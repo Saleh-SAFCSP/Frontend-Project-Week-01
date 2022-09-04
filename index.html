@@ -5,11 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Validatuon Form </title>
+    <!-- icone  -->
+    <link rel="icon" href="./icons/register.ico">
+    <!-- CSS -->
+<link href="./css/style.css"rel="stylesheet">
+<script src="https://kit.fontawesome.com/5c30f4604a.js" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
 </head>
 
 <body>
 
+<div class="cotainer">
+   <div class="heder">
+   <h2>Register</h2>
+   <hr> 
+   </div>
+   <form id="form" class="form"action="#">
+    <div class="formControler ">
+        <label >User Name </label>
+        <input id="un" type="text" placeholder="Enter Your UserName">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <small id="ms">Username must be at least 3 characters</small>
+    </div>
+
+    <div class="formControler ">
+        <label >Email </label>
+        <input id="em" type="email" placeholder="Entar Your Email">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <small id="ms">Email is not valid</small>
+    </div>
+
+    <div class="formControler">
+        <label >Password </label>
+        <input id="pw" type="password" placeholder="Enter Your password">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <small id="ms">Password must be at least 6 characters</small>
+    </div>
+
+    <div class="formControler">
+        <label >Confirm Password </label>
+        <input id="pw2" type="password" placeholder="Confirm Your Password">
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <small id="ms">Password2 is required</small>
+    </div>
+<button>Submit</button>
+   </form>
+     
+</div>
+    
+
+
+<script src="./js/script.js"></script>
 </body>
 
 </html>
