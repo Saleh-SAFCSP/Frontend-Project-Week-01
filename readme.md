@@ -1,15 +1,7 @@
 # Frontend-Project-Week-01
 
-### This is the frontend project week 01
+### screenshot
 
-- In this project you need to build a form validtior 
 
-- The form should accept the following :
-
-1. Username ( Username must be at least 3 characters )
-2. Email ( Email must be valid )
-3. Password ( Password must be at least 6 characters )
-4. Confirm password ( confirm password must match password )
-
-You can find running example here : https://unrivaled-horse-4176c5.netlify.app
-
+![Screenshot (5)](https://user-images.githubusercontent.com/109069188/188302634-fa87e5cc-4971-4c1e-aaad-27926c78cf8f.png)
+![Screenshot (6)](https://user-images.githubusercontent.com/109069188/188302636-c6496f5c-1a8d-40b1-9ca3-2ce7ef31c18f.png)
