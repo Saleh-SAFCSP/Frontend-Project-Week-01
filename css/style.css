@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+body{
+    background-image: url('/img/mountains-g930bcc747_1920.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;   
+} 
+.cotainer{
+  background-color: rgba(255, 255, 255, 0.579);
+  border-radius: 10px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); 
+  width:450px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.heder{
+  padding: 20px ; 
+  text-align: center;
+}
+.heder h2{
+ margin: 0;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.heder hr{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9); 
+}
+.form{
+ padding: 30px 40px;   
+}
+.formControler{
+    margin-bottom:10px ;
+    padding-bottom: 20px;
+    position: relative;  
+}
+.formControler label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.formControler input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display:block;
+    font-family: inherit;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+.formControler.success input{
+  border-color: #246444;
+}
+
+.formControler.error input{
+    border-color: #ba684b;
+  }
+
+  .formControler.success i.fa-circle-check{
+visibility: visible;
+color:#246444;
+  }
+  .formControler.error i.fa-circle-exclamation{
+    visibility: visible;
+    color:#ba684b;
+      }
+
+.formControler i{
+    visibility: hidden;
+   position: absolute;
+   top: 35px;
+   right: 10px; 
+}
+.formControler.error small{
+  visibility: visible;
+  color:#ba684b; 
+}
+.formControler small{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.form button{
+ background-color: rgb(65, 114, 115); 
+ border-radius: 5px; 
+ border: 2px; 
+ color: rgb(34, 34, 34);
+ width: 100%;
+ padding: 15px;
+ font-size: 15px;
+ font-family: inherit;
+
+}
