@@ -12,4 +12,6 @@
 4. Confirm password ( confirm password must match password )
 
 You can find running example here : https://unrivaled-horse-4176c5.netlify.app
+-----------------------------------------------------------------------------------------------
+
 
