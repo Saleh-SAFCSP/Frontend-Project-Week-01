@@ -1,0 +1,24 @@
+.container{
+    padding: 30rem;   
+    margin-top: 6rem; 
+    width: 25rem;
+    height: 35rem;
+  }
+
+small{
+    color: red;
+}
+button {
+    background-color: #2f8ac7;
+    border:#2f8ac7;
+    border-radius: 4px;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    width: 100%;
+  }
+  .valid-border{
+    border-color: red;
+  }
+ 
+
